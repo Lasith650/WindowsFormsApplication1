@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D4E2059-0125-44A1-885A-3246A5097998}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Functions Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Functions Form.Designer.cs">
+      <DependentUpon>Admin Functions Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Login Form.Designer.cs">
+      <DependentUpon>Admin Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Front.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Front.Designer.cs">
+      <DependentUpon>Front.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supplier Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier Login Form.Designer.cs">
+      <DependentUpon>Supplier Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Login Form.Designer.cs">
+      <DependentUpon>User Login Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin Functions Form.resx">
+      <DependentUpon>Admin Functions Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Login Form.resx">
+      <DependentUpon>Admin Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Front.resx">
+      <DependentUpon>Front.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Supplier Login Form.resx">
+      <DependentUpon>Supplier Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Login Form.resx">
+      <DependentUpon>User Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16pic_5209819_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registration-reservation-admission-cashier-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\206857.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\526829024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-call-supplier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012_power-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_clear_Cancel_trash_recycle_bin_remove_x_cross-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales-icon-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
