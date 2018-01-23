@@ -47,5 +47,19 @@ namespace WindowsFormsApplication1
             Remove_User_Form remove = new Remove_User_Form();
             remove.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add_New_Supplier_Form supplier = new Add_New_Supplier_Form();
+            supplier.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Delete_Supplier_Form delete = new Delete_Supplier_Form();
+            delete.Show();
+        }
     }
 }

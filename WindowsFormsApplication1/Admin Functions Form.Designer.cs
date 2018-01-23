@@ -156,6 +156,7 @@
             this.button5.Size = new System.Drawing.Size(100, 100);
             this.button5.TabIndex = 7;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -166,6 +167,7 @@
             this.button4.Size = new System.Drawing.Size(100, 100);
             this.button4.TabIndex = 5;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -222,7 +224,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Admin_Functions_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin_Functions_Form";
             this.ResumeLayout(false);
             this.PerformLayout();

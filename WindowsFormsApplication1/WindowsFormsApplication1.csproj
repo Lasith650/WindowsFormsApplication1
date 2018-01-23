@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add New Supplier Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add New Supplier Form.Designer.cs">
+      <DependentUpon>Add New Supplier Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add New User Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Admin Login Form.Designer.cs">
       <DependentUpon>Admin Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Supplier Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete Supplier Form.Designer.cs">
+      <DependentUpon>Delete Supplier Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Front.cs">
       <SubType>Form</SubType>
@@ -90,6 +102,9 @@
     <Compile Include="User Login Form.Designer.cs">
       <DependentUpon>User Login Form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Add New Supplier Form.resx">
+      <DependentUpon>Add New Supplier Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add New User Form.resx">
       <DependentUpon>Add New User Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin Login Form.resx">
       <DependentUpon>Admin Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete Supplier Form.resx">
+      <DependentUpon>Delete Supplier Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Front.resx">
       <DependentUpon>Front.cs</DependentUpon>
