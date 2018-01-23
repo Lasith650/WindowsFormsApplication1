@@ -33,5 +33,19 @@ namespace WindowsFormsApplication1
             Admin_Login_Form login = new Admin_Login_Form();
             login.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add_New_User_Form user = new Add_New_User_Form();
+            user.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Remove_User_Form remove = new Remove_User_Form();
+            remove.Show();
+        }
     }
 }

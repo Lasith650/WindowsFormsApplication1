@@ -34,6 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -107,6 +107,16 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "SALES";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(508, 459);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(145, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "SUPPLIER QUOTATION";
+            // 
             // button8
             // 
             this.button8.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.download__2_;
@@ -166,6 +176,7 @@
             this.button3.Size = new System.Drawing.Size(100, 100);
             this.button3.TabIndex = 3;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -176,6 +187,7 @@
             this.button2.Size = new System.Drawing.Size(100, 100);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -187,16 +199,6 @@
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(508, 459);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(145, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "SUPPLIER QUOTATION";
             // 
             // Admin_Functions_Form
             // 

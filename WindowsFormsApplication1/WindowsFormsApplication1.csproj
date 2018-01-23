@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add New User Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add New User Form.Designer.cs">
+      <DependentUpon>Add New User Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin Functions Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remove User Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove User Form.Designer.cs">
+      <DependentUpon>Remove User Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Supplier Login Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,9 @@
     <Compile Include="User Login Form.Designer.cs">
       <DependentUpon>User Login Form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Add New User Form.resx">
+      <DependentUpon>Add New User Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin Functions Form.resx">
       <DependentUpon>Admin Functions Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Remove User Form.resx">
+      <DependentUpon>Remove User Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Supplier Login Form.resx">
       <DependentUpon>Supplier Login Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -161,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
